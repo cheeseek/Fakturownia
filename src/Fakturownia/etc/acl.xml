@@ -6,7 +6,7 @@
             <resource id="Magento_Backend::stores">
                 <resource id="Magento_Backend::stores_settings">
                     <resource id="Magento_Config::config">
-                        <resource id="Cheeseek_Fakturownia::fakturownia_config" title="Fakturownia enable" sortOrder="50" />
+                        <resource id="Cheeseek_Fakturownia::fakturownia_config" title="Fakturownia enable" sortOrder="1" />
                     </resource>
                 </resource>
             </resource>
