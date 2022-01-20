@@ -1,0 +1,19 @@
+<?php
+
+/** @var Magento\Framework\View\Element\Template $block */
+
+/** @var $viewModel Cheeseek\Fakturownia\ViewModel\Faktura\Listing\PrepareFaktura */
+$viewModel = $block->getViewModel();
+//
+
+?>
+<div class="block block-dashboard-info">
+    <div class="block-title"><strong><?= $block->escapeHtml(__('Account Information')) ?></strong></div>
+    <div class="block-content">
+        <div class="box box-information">
+            <strong class="box-title">
+                <span><?= $viewModel->getFaktura(); ?></span>
+            </strong>
+    </div>
+    </div>
+</div>

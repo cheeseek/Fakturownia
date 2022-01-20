@@ -1,0 +1,19 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
+    <update handle="customer_account"/>
+    <body>
+        <referenceBlock name="page.main.title">
+            <block name="example-view-model" class="Magento\Framework\View\Element\Template" template="Cheeseek_Fakturownia::info.phtml">
+                <arguments>
+                    <argument name="view_model"
+                              xsi:type="object">Cheeseek\Fakturownia\ViewModel\Faktura\Listing\PrepareFaktura</argument>
+                </arguments>
+            </block>
+            <action method="setPageTitle">
+                <argument translate="true" name="title" xsi:type="string">TEST</argument>
+            </action>
+
+        </referenceBlock>
+
+    </body>
+</page>
